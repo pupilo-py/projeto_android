@@ -87,7 +87,6 @@ nav > a:hover {
 main {
     background-color: var(--cor6);
     max-width: 800px;
-    min-width: 300px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -201,4 +200,18 @@ footer a {
 footer a:hover {
     color: var(--cor1);
     text-decoration: underline;
+}
+
+@media (max-width: 382px) {
+    
+    nav a {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 354px) {
+    
+    nav a {
+        font-size: 0.7em;
+    }
 }
