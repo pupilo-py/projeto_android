@@ -32,8 +32,7 @@
 	--sombra-1:  hsla(0, 0%, 0%, var(--alpha-2));
 
 	--box-shadow-color:    var(--sombra-0);
-	--text-shadow-color-0: var(--sombra-0);
-	--text-shadow-color-1: var(--sombra-1);
+	--text-shadow-color:   var(--sombra-1);
 	
 	
 	--fonte-sans: 	 Arial, Helvetica, sans-serif;

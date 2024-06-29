@@ -9,7 +9,7 @@
 
 .important {
     font-weight: bold;
-    text-shadow: 0 0 1px var(--text-shadow-color-1);
+    text-shadow: 0 0 1px var(--text-shadow-color);
     color: var(--cor-4);
 }
 
@@ -72,14 +72,14 @@ header > h1 {
     font-family: var(--fonte-cursive);
     font-size: var(--tamanho-fonte-header-h1);
     font-weight: normal;
-    text-shadow: 2px 2px 0 var(--text-shadow-color-0);
+    text-shadow: 2px 2px 0 var(--text-shadow-color);
     margin: 0 0 20px;
     padding: 0 10px;
 }
 
 header > p {
     font-size: var(--tamanho-fonte-header-p);
-    text-shadow: 2px 2px 0 var(--text-shadow-color-0);
+    text-shadow: 2px 2px 0 var(--text-shadow-color);
     max-width: 440px;
     margin: auto;
     padding: 0 20px;
