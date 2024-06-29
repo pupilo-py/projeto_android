@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+	font-family: idroid;
+	src: url(../fonts/idroid.otf) format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+	--hue-0: 147;
+	--hue-1: calc(var(--hue-0) - 1);
+
+	--alpha-0: 1;
+	--alpha-1: calc(var(--alpha-0) - 0.5);
+	--alpha-2: calc(var(--alpha-1) - 0.2);
+	
+
+	--cor-0: hsl(var(--hue-0), 49%, 85%);
+	--cor-1: hsl(var(--hue-0), 61%, 70%);
+	--cor-2: hsl(var(--hue-0), 69%, 55%);
+	--cor-3: hsl(var(--hue-0), 56%, 42%);
+	--cor-4: hsl(var(--hue-1), 56%, 23%);
+	--cor-5: hsl(var(--hue-1), 82%, 13%);
+	
+
+	--cor-6:  hsl(0, 0%, 100%);
+	--cor-7:  hsl(0, 0%, 0%);
+	
+
+	--sombra-0:  hsla(0, 0%, 0%, var(--alpha-1));
+	--sombra-1:  hsla(0, 0%, 0%, var(--alpha-2));
+
+	--box-shadow-color:    var(--sombra-0);
+	--text-shadow-color-0: var(--sombra-0);
+	--text-shadow-color-1: var(--sombra-1);
+	
+	
+	--fonte-sans: 	 Arial, Helvetica, sans-serif;
+	--fonte-cursive: 'Bebas Neue', cursive;
+	--fonte-android: idroid, sans-serif;
+
+	--tamanho-fonte-header-h1: 3em;
+	--tamanho-fonte-header-p:  1.2em;
+	--tamanho-fonte-main-h1:   1.8em;
+	--tamanho-fonte-main-h2:   1.3em;
+}
