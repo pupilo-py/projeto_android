@@ -40,9 +40,9 @@
 .internal-video {
     display: block;
     aspect-ratio: 16/9; 
-    width: auto;
+    width: calc(100% - 40px);
     height: auto;
-    max-width: calc(100% - 40px);
+    max-width: 800px;
     margin: auto;
 }
 
