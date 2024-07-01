@@ -32,8 +32,9 @@
 .article-image {
     display: block;
     margin: auto;
-    width: 100%;
-    max-width: fit-content;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
 .internal-video {
