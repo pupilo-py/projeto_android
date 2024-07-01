@@ -31,10 +31,11 @@
 
 .article-image {
     display: block;
-    margin: auto;
     width: auto;
     height: auto;
     max-width: 100%;
+    margin: auto;
+    border-radius: 6px;
 }
 
 .internal-video {
@@ -44,6 +45,7 @@
     height: auto;
     max-width: 800px;
     margin: auto;
+    border-radius: 6px;
 }
 
 .contact-link {
