@@ -171,9 +171,6 @@ main > article > aside > h3 {
 }
 
 main > article > aside > ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
     list-style: inside "\2714\00A0\00A0";
 }
 
@@ -201,13 +198,37 @@ footer > ul#contact-list > li {
     margin: 10px 0;
 }
 
-@media (min-width: 435px) {
+@media (min-width: 490px) {
     nav > ul {
         display: flex;
         justify-content: space-evenly;
     }
 
+    main ul {
+        column-count: 2;
+        width: fit-content;
+        margin: auto;
+        column-gap: 25%;
+    }
+    
+    main > article > aside > ul > li.col-1 {
+        width: 206.531px;
+    
+    }
+    
+    main > article > aside > ul > li.col-2 {
+        width: 153.156px;     
+    }
+}
+
+@media (min-width: 800px) {
     main > article > aside > ul {
-        flex-direction: row;
+        width: unset;
+        margin: auto 20.5851%;
+        column-gap: unset;
+    }
+
+    main > article > aside > ul > li.col-2 {
+        margin-left: 34.9631%;     
     }
 }
