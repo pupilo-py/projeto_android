@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url(root.css);
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+header > h1 {
+    font-size: var(--tamanho-fonte-header-h1);
+}
+
+header > p {
+    font-size: var(--tamanho-fonte-header-p);
+    max-width: 500px;
+    margin: auto;
+}
+
+nav {
+    display: none;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: unset;
+    height: unset;
+    max-width: 600px;
+    margin: auto;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+main > article > h1 {
+    font-size: var(--tamanho-fonte-main-h1);
+}
+
+main > article > p {
+    font-size: var(--tamanho-fonte-main-p);
+    line-height: var(--altura-linha-2);
+    text-align: justify;
+    margin: 1em 0;
+}
+
+main p:last-child {
+    display: none;
+}
+
+section {
+    display: none;
+}
+
+aside {
+    display: none;
+}
+
+footer {
+    display: none;
+}

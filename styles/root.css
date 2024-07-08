@@ -12,6 +12,12 @@
 	font-style: normal;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
 	--hue-0: 147;
 	--hue-1: calc(var(--hue-0) - 1);
@@ -48,4 +54,7 @@
 	--tamanho-fonte-header-p:  1.2em;
 	--tamanho-fonte-main-h1:   1.8em;
 	--tamanho-fonte-main-h2:   1.3em;
+
+	--altura-linha-1: 1.5em;
+	--altura-linha-2: 1.8em;
 }
