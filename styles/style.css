@@ -122,7 +122,7 @@ main {
 }
 
 main > article > h1, main > article > h2 {
-    font-family: var(--fononente-android);
+    font-family: var(--fonte-android);
 }
 
 main > article > h1 {

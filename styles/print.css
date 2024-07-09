@@ -50,6 +50,7 @@ main > article > h1 {
 main > article > p {
     font-size: var(--tamanho-fonte-main-p);
     line-height: var(--altura-linha-2);
+    text-indent: 1.5em;
     text-align: justify;
     margin: 1em 0;
 }
