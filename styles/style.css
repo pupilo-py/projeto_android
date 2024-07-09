@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(root.css);
+@import url(all.css);
 
 .important {
     font-weight: bold;
@@ -9,7 +9,6 @@
 
 .external-link {
     text-wrap: nowrap;
-    text-decoration: none;
     background: var(--cor-1);
     color: var(--cor-5);
     padding: 2px 6px;
@@ -24,11 +23,7 @@
 }
 
 .article-image {
-    display: block;
-    width: auto;
-    height: auto;
     max-width: 100%;
-    margin: auto;
     border-radius: 6px;
 }
 
@@ -45,7 +40,6 @@
 .contact-link {
     font-weight: bold;
     color: var(--cor-1);
-    text-decoration: none;
 }
 
 .contact-link:hover {
@@ -104,7 +98,6 @@ nav > ul > li > a {
     padding: 10px;
     border-radius: 5px;
     font-weight: bold;
-    text-decoration: none;
     transition-duration: 0.5s;
 }
 
@@ -116,7 +109,6 @@ nav > ul > li > a:hover {
 main {
     background: var(--cor-6);
     max-width: 1000px;
-    margin: auto;
     padding: 20px;
     box-shadow: 0 6px 6px var(--box-shadow-color);
 }
@@ -126,7 +118,6 @@ main > article > h1, main > article > h2 {
 }
 
 main > article > h1 {
-    font-size: var(--tamanho-fonte-main-h1);
     color: var(--cor-5);
 }
 
@@ -137,10 +128,7 @@ main > article > h2 {
 }
 
 main p {
-    text-align: justify;
-    text-indent: 1.5em;
     line-height: var(--altura-linha-1);
-    margin: 16px 0;
 }
 
 main > article > section {
