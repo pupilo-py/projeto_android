@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url(all.css);
+
+nav, main p:last-child, section, aside, footer {
+    display: none;
+}
+
+.article-image {
+    max-width: 600px;
+}
+
+body {
+    font-family: var(--fonte-print);
+}
+
+header {
+    padding: 40px 0;
+}
+
+a {
+    color: unset;
+}
+
+main {
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+main > article > p {
+    line-height: var(--altura-linha-2);
+}
