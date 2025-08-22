@@ -1,13 +1,13 @@
 @charset "UTF-8";
 @font-face {
 	font-family: 'Bebas Neue';
-	src: url(../../fonts/BebasNeue-Regular.ttf) format('truetype');
+	src: url(../../fonts/BebasNeue-Regular.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: idroid;
-	src: url(../../fonts/idroid.otf) format('opentype');
+	src: url(../../fonts/idroid.woff2) format('woff2');
 	font-weight: normal;
 	font-style: normal;
 }
